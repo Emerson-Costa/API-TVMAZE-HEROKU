@@ -1,0 +1,48 @@
+form {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.search {
+    padding: 8px 15px;
+    background: rgba(255, 6, 172, 0.2);
+    border: 1.5px solid #000000;
+    width: 400px;
+}
+
+.button {
+    position: relative;
+    padding: 6.5px 15px;
+    border: 2px solid #207cca;
+    background-color: #207cca;
+    color: #fafafa;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #207cca;
+}
+
+.arrow {
+    position: relative;
+    background: #207cca;
+    margin-left: -5px;
+}
+
+.arrow:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rbga(32, 124, 202, 0);
+    border-right-color: #207cca;
+    border-width: 10px;
+    margin-top: -7px;
+}
+
+.box {
+    display: flex;
+}

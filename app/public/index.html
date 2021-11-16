@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tv-maze</title>
+    <link rel="stylesheet" href="./styles/styleIndex.css" />
+    <link rel="stylesheet" href="./styles/styleSearch.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>API MOVIES TV MAZE</h1>
+        <!--Caixa para pesquisar um filme-->
+        <div>
+            <form action="">
+                <div class="box">
+                    <input type="text" placeholder="Informe o nome do filme no idioma inglês" class="search" required name="name" id="name">
+                    <span class="arrow"></span>
+                    <input type="submit" value="Search" class="button" id="send">
+                </div>
+            </form>
+        </div>
+
+        <!--Essa ul vazia vai gerar uma lista de objetos-->
+        <ul data-js="movies" class="gridMovies"></ul>
+
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
