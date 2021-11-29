@@ -16,7 +16,9 @@
 
 * 5 - só são válidos pesquisas por programas ou filmes em inglês como : supermam, spidermam, pokemon, dragon ball etc...
 
-  ​    
+# Link Para o acesso
+
+* https://api-tvmaze-2785.herokuapp.com/
 
     
 
